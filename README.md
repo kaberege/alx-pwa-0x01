@@ -17,18 +17,18 @@ Key features:
 
 ## Available Endpoints
 
-Method	Endpoint	Description
-GET	/titles	Fetch a list of movies or series, with optional filtering (e.g., genre, year, etc.)
-GET	/titles/{id}	Get detailed information about a specific movie or show by ID
-GET	/titles/{id}/ratings	Get rating information for a specific title
-GET	/titles/{id}/aka	Fetch alternate titles (AKAs) for a specific title ID
-GET	/titles/x/titles-by-ids	Fetch multiple titles by an array of IDs
-GET	/titles/series/{seriesId}	Get general information about a TV series by its series ID
-GET	/titles/series/{seriesId}/{season}	Get season-specific information for a TV series
-GET	/titles/seasons/{seriesId}	Retrieve all seasons for a given series ID
-GET	/titles/episode/{id}	Get information about a specific TV episode by its ID
-GET	/titles/x/upcoming	Get a list of upcoming movies or TV shows
-GET	/titles/random	Fetch a random movie or TV title
+ Method	 Endpoint	         Description
+- GET	/titles	Fetch a list of movies or series, with optional filtering (e.g., genre, year, etc.)
+- GET	/titles/{id}	Get detailed information about a specific movie or show by ID
+- GET	/titles/{id}/ratings	Get rating information for a specific title
+- GET	/titles/{id}/aka	Fetch alternate titles (AKAs) for a specific title ID
+- GET	/titles/x/titles-by-ids	Fetch multiple titles by an array of IDs
+- GET	/titles/series/{seriesId}	Get general information about a TV series by its series ID
+- GET	/titles/series/{seriesId}/{season}	Get season-specific information for a TV series
+- GET	/titles/seasons/{seriesId}	Retrieve all seasons for a given series ID
+- GET	/titles/episode/{id}	Get information about a specific TV episode by its ID
+- GET	/titles/x/upcoming	Get a list of upcoming movies or TV shows
+- GET	/titles/random	Fetch a random movie or TV title
 
 ## Request and Response Format
 
